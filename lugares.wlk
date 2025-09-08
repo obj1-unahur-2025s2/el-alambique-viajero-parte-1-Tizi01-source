@@ -38,6 +38,11 @@ object lasVegas {
 
 }
 
+object roma {
+    method recuerdo() = "pizza"
+
+    method restricciones(vehiculo) = (vehiculo.combustible() > 1) && (vehiculo.velocidad() > 10)
+}
 
 
 // RECUERDOS
